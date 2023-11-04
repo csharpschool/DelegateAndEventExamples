@@ -1,0 +1,12 @@
+﻿@page "/"
+@using LogDelegate.Classes;
+@inject LogApp app;
+
+<button @onclick="@(async () => await app.Log("The logged message", app.Logger.LogToLocalStorage))">Local Storage Logger</button>
+<button @onclick="@(async () => await app.Log("The screen message", app.Logger.LogToScreen))">Local Screen</button>
+<button @onclick="@(async () => await app.Log("The output message", app.Logger.LogToOutput))">Local Output Window</button>
+
+<div>@app.Message</div>
+
+@code {
+}

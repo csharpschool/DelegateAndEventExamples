@@ -1,0 +1,13 @@
+﻿@page "/"
+@using DelegatesAndEvents.Classes;
+
+<button @onclick="@(async () => await app.Add(new Person("Jonas"), Delegates.AddedEvent))">Add</button>
+<button @onclick="@(async () => await app.Add(null, Delegates.AddedEvent))">Add Null</button>
+<button @onclick="@(async () => await app.Remove("Jonas", Delegates.RemovedEvent))">Remove</button>
+<button @onclick="@(async () => await app.Remove("Kalle", Delegates.RemovedEvent))">Can't Remove</button>
+
+<div>@app.Message</div>
+
+@code{
+    DelegateApp app = new();
+}

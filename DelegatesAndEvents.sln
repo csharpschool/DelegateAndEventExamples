@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{587E13FB-D6F8-4BC1-A150-28722C06D816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDelegate", "LogDelegate\LogDelegate.csproj", "{4C149A56-3E6E-4753-9C3E-DECAE3F36048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587E13FB-D6F8-4BC1-A150-28722C06D816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587E13FB-D6F8-4BC1-A150-28722C06D816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587E13FB-D6F8-4BC1-A150-28722C06D816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587E13FB-D6F8-4BC1-A150-28722C06D816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C21C9E-EE22-43D2-80DD-81250CFDACDB}
+	EndGlobalSection
+EndGlobal

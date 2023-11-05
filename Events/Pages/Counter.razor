@@ -1,0 +1,17 @@
+﻿@page "/counter"
+
+@using Events.Service;
+@inject EventApp app
+
+<h1>Newsletter</h1>
+
+<span>Article</span>
+<div class="input-group mb-3">
+    <input placeholder="Name" @bind="content" />
+    <button class="btn btn-primary" @onclick="() => app.PublishArticle(content)">Publish</button>
+</div>
+
+
+@code{
+    string content = string.Empty;
+}

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{587E13FB-D6F8-4BC1-A150-28722C06D816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{587E13FB-D6F8-4BC1-A150-28722C06D816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDelegate", "LogDelegate\LogDelegate.csproj", "{4C149A56-3E6E-4753-9C3E-DECAE3F36048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogDelegate", "LogDelegate\LogDelegate.csproj", "{4C149A56-3E6E-4753-9C3E-DECAE3F36048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{B7D11C38-0CD8-49F3-B587-9C6882F1831B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C149A56-3E6E-4753-9C3E-DECAE3F36048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D11C38-0CD8-49F3-B587-9C6882F1831B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D11C38-0CD8-49F3-B587-9C6882F1831B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D11C38-0CD8-49F3-B587-9C6882F1831B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D11C38-0CD8-49F3-B587-9C6882F1831B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

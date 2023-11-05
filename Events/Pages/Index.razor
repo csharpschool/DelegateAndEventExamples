@@ -1,0 +1,38 @@
+﻿@page "/"
+@using Events.Service;
+@inject EventApp app
+
+<h1>Events</h1>
+
+<div class="input-group mb-3">
+    <input placeholder="Name" @bind="app.Name" />
+    <button class="btn btn-primary" @onclick="app.AddCustomer">Add Customer</button>
+</div>
+
+<div class="alert alert-info" style="width:20%" role="alert">@app.Message</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subscribed</th>
+            <th>Article</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in app.Customers)
+        {
+            <tr>
+                <td>@customer.Name</td>
+                <td>@customer.IsSubscribed</td>
+                <td>@customer.EventMessage</td>
+                <td>
+                    <button class="btn btn-success" @onclick="() => app.SubscribeToNewsletter(customer)">Subscribe</button>
+                    <button class="btn btn-warning" @onclick="() => app.UnsubscribeToNewsletter(customer)">Unsubscribe</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
